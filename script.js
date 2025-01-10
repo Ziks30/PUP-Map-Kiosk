@@ -5,18 +5,18 @@ function showSceneryBox(imageSrc, title, description) {
     sceneryBox.id = "sceneryBox";
     sceneryBox.style.position = "absolute";
     sceneryBox.style.backgroundColor = "rgba(255, 255, 255, 0.9)";
-    sceneryBox.style.border = "1px solid #ccc";
+    sceneryBox.style.border = "3px solid #800000";
     sceneryBox.style.padding = "10px";
     sceneryBox.style.zIndex = "1000";
     sceneryBox.style.boxShadow = "0px 4px 10px rgba(0, 0, 0, 0.2)";
     sceneryBox.style.borderRadius = "5px";
-    sceneryBox.style.width = "220px";
+    sceneryBox.style.width = "250px";
     document.body.appendChild(sceneryBox);
   }
 
   sceneryBox.innerHTML = `
-      <img src="${imageSrc}" alt="${title}" style="width: 100%; max-width: 200px; border-radius: 5px;">
-      <h3 style="margin: 10px 0; font-size: 16px;">${title}</h3>
+      <img src="${imageSrc}" alt="${title}" style="width: 100%; border-radius: 5px;">
+      <h3 style="margin: 10px 0; font-size: 16px; color: #800000">${title}</h3>
       <p style="margin: 0; font-size: 14px; line-height: 1.4;">${description}</p>
     `;
 

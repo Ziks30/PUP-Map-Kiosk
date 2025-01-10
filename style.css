@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 1px 10px #222e45;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: maroon;
+}
+
+h1 {
+    
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: gold;
+}
